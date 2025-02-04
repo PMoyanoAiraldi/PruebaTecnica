@@ -7,3 +7,8 @@ export const destinationAgent = (message: string) => {
     }
     return null;
 };
+
+export const getDestinationSuggestions = async (): Promise<string> => {
+    return "¿Buscas destinos de playa, montaña o ciudad? Por favor, dime más sobre tus preferencias.";
+};
+

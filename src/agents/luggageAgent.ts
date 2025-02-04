@@ -25,3 +25,8 @@ export const luggageAgent = async (message: string, context: any) => {
     }
     return null;
 };
+
+
+export const getLuggageSuggestions = async (): Promise<string> => {
+    return "¿Qué tipo de viaje estás planeando? Puedo ayudarte a empacar según el clima y la duración del viaje.";
+};
